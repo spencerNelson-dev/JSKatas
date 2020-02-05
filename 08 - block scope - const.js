@@ -21,8 +21,8 @@ describe('`const` is like `let` plus read-only', () => {
     });
     describe('complex types are NOT fully read-only', () => {
       it('array`s items can be changed', () => {
-        const arr = [42];
-        //arr[0] = 0;
+        const arr = [];
+        arr[0] = 42;
         assert.equal(arr[0], 42);
       });
       it('object`s can be modified', () => {
