@@ -1,0 +1,1 @@
+This repository contains all of the JS Katas I've complete. The files contain the copied code that passes all of the tests.
